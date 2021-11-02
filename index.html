@@ -23,12 +23,14 @@
           <nav class="topbar navbar navbar-expand-lg navbar-light bg-light">
             <!--Duda:la navegacion en realidad es el aside? -->
             <div class="container-fluid">
-              <form class="d-flex">
+              <form class="d-flex"> <!--rol=search   role=“search”
+              -->
                 <input class="form-control me-2" type="search" placeholder="Buscá colegios, aulas o alumnos"
                   aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Buscar</button>
               </form>
-
+          <!--nav podria cerrar acá-->
+          <!--el div de abajo podria ser nav-->
               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                   <li class="nav-item dropdown">
@@ -45,9 +47,7 @@
                       <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                   </li>
-
                 </ul>
-
               </div>
             </div>
           </nav>
@@ -64,7 +64,7 @@
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item"><img class="icon m-0" src="img/calendario.svg" alt="">
-                      <!--Se puede poner el img dentro de li?-->
+                      <!--dentro de li pueden ir elementos de linea-->
                       3 cursos
                     </li>
                     <li class="list-group-item"><img class="icon m-0" src="img/calendario.svg" alt="">
@@ -143,6 +143,7 @@
           </div>
         </main>
       </div>
+      <!--de aside a nav, aria-label para diferenciar los navs, con nombre principal -->
       <aside class="sidenav order-first col-lg-2">
         <!--Duda: necesita etiqueta nav? -->
         <img class="logo" src="img/Logo.png.png" alt="Pupitre">
