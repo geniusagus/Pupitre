@@ -4,6 +4,9 @@ body{
     background-color: #FEFBFF;
 }
 
+a:focus { outline: 2px dotted blue; }
+a:hover, a:active { outline: 0; }
+
 .topbar{
     background-color: #ffffff;
     width: 100%;
