@@ -1,0 +1,20 @@
+<html>
+<head>
+   <title>Key combinations test</title>
+   <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+   Press Ctrl + Shift + s<br><br>
+   <script type="text/javascript">
+       $('body').on("keydown", function(e) { 
+           if (e.ctrlKey && e.shiftKey && e.which === 83) {
+               alert("You pressed Ctrl + Shift + s");
+               e.preventDefault();
+           }
+       });
+       $("#button").on("click", function(e) { 
+           alert("You clicked button");
+       }); 
+   </script>
+</body>
+</html>
