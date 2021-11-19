@@ -53,7 +53,7 @@ margin: 0;
 }
 
 .sidenav .activo{
- background-color: #7514C7;
+ background-color: #5C65ED;
  border-radius: 8px;
 }
 
@@ -140,7 +140,7 @@ margin-bottom: 24px;
 }
 
 .card:hover{
-    border: 1px solid #7514C7;
+    border: 1px solid #5C65ED;
     transform: scale(1.02);
 }
 
@@ -223,7 +223,7 @@ text-decoration: none;
 }
 
 .btn-primary{
-    background-color: #7514C7;
+    background-color: #5C65ED;
     border-radius: 16px;
     width: 100%;
     padding: 8px 24px 8px 24px;
@@ -240,7 +240,7 @@ text-align: center;
 
 a{
     text-decoration: none;
-    color: #7514C7;
+    color: #5C65ED;
 }
 
 .fotodeperfil{
@@ -251,3 +251,48 @@ a{
    border: 2px dashed #FF4B43;
    padding-bottom: 16px;
 }
+
+.calificacion{
+    background-color: #5C65ED;
+    border-radius: 16px;
+    margin: 0 0 16px 24px;
+}
+
+.blan{
+    color: #ffffff;
+}
+
+.estrella{
+    width: 36px;
+    margin-right: 24px;
+}
+
+.flexd{
+    display: flex;
+    align-items: center;
+}
+
+.comentario{
+    text-align: right;
+}
+
+.cajacoment{
+    display: flex;
+    justify-content: end;
+    padding: 16px;
+}
+
+.barra{
+    background-color: #f4F4F4;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 16px 16px 0 0;
+}
+
+.hoja{
+    background-color: #ffffff;
+    padding: 24px;
+}
+
+.sticky-top { top: 0.5em; }
