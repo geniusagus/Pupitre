@@ -7,6 +7,10 @@ body{
 a:focus { outline: 2px dotted blue; }
 a:hover, a:active { outline: 0; }
 
+ul{
+    padding: 0;
+}
+
 .topbar{
     background-color: #ffffff;
     width: 100%;
@@ -215,7 +219,7 @@ text-decoration: none;
 }
 
 .rojo{
-    color: #FF4B43;
+    color: #FD7014;
 }
 
 .verde{
@@ -235,8 +239,20 @@ font-weight: 500;
 line-height: 16px;
 letter-spacing: 0.25px;
 text-align: center;
-
 }
+
+.botonest{
+    width: auto;
+    color: #ffffff;
+    background-color: #5C65ED;
+    padding: 8px;
+    border-radius: 4px;
+}
+.botonest:hover{
+    color: #ffffff;
+    background-color: #505ae2;
+}
+
 
 a{
     text-decoration: none;
@@ -248,9 +264,21 @@ a{
 }
 
 .bordecritico{
-   border: 2px dashed #FF4B43;
+   border: 2px solid #FD7014;
    padding-bottom: 16px;
+   border-radius: 8px;
 }
+
+.tagcritico{
+    color: #333333;
+    font-size: 18px;
+    padding: 8px;
+    background-color: #FD7014;
+    margin: 0;
+    display: inline-block;
+    border-radius: 0 0 16px 0;
+}
+
 
 .calificacion{
     background-color: #5C65ED;

@@ -21,51 +21,52 @@
             <div class="col-lg-10">
                 <header>
                     <nav aria-label="Buscador" class="topbar navbar navbar-expand-lg navbar-light bg-light">
-                      <div class="container-fluid">
-                        <form role="search" class="d-flex">
-                          <input class="form-control me-2" type="search" placeholder="Buscá colegios, aulas o alumnos"
-                            aria-label="Search">
-                          <button class="btn btn-outline-success" type="submit">Buscar</button>
-                        </form>
-                        <nav aria-label="Mi perfil" class="collapse navbar-collapse justify-content-end"
-                          id="navbarSupportedContent">
-                          <ul class="navbar-nav mb-2 mb-lg-0">
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Martha Rodriguez
-                              </a>
-                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                  <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                              </ul>
-                            </li>
-                          </ul>
-                        </nav>
-                      </div>
+                        <div class="container-fluid">
+                            <form role="search" class="d-flex">
+                                <input class="form-control me-2" type="search"
+                                    placeholder="Buscá colegios, aulas o alumnos" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            </form>
+                            <nav aria-label="Mi perfil" class="collapse navbar-collapse justify-content-end"
+                                id="navbarSupportedContent">
+                                <ul class="navbar-nav mb-2 mb-lg-0">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Martha Rodriguez
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
                     </nav>
-                  </header>
+                </header>
                 <main>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html">Mis colegios</a></li>
                             <li class="breadcrumb-item"><a href="aulas.html">Colegio Calazans</a></li>
                             <li class="breadcrumb-item"><a href="aulas.html">5ºB</a></li>
-                            <li class="breadcrumb-item"><a href="aulas.html">Macarena Gonzalez</a></li>
+                            <li class="breadcrumb-item"><a href="macarena.html">Macarena Gonzalez</a></li>
                             <li class="breadcrumb-item active"><a aria-current="page">TP 02</a></li>
                         </ol>
                     </nav>
-                    <p>Pulsa la letra C de tu teclado para añadir un comentario mientras lees el trabajo de
+                    <p>Pulsa la combinacion Ctrl + Shift + L de tu teclado para añadir un comentario mientras lees el trabajo de
                         Macarena.
                     </p>
                     <div class="row">
                         <section class="col-lg-9">
-                            <div class="barra"> <!--ocultar esto con el narrador-->
-                                <h3 class="m-0">zoom</h3>
+                            <div class="barra">
+                                <!--ocultar esto con el narrador-->
+                                <h3 class="m-0">Zoom</h3>
                                 <img class="m-2" src="img/sep.svg" alt="">
                                 <img class="m-2" src="img/zoomin.svg" alt="">
                                 <img class="m-2" src="img/sep.svg" alt="">
@@ -79,7 +80,35 @@
                                     veniam?
                                     Veniam voluptates autem tempore dolorem fugiat illum nobis? </p>
                                 <div class="cajacoment">
-                                    <a class="comentario" href="tp2.html">Comentar parrafo</a>
+                                    <a class="comentario" data-bs-toggle="modal" data-bs-target="#exampleModal">Comentar
+                                        párrafo</a>
+                                </div>
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Nuevo comentario</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form>
+
+                                                    <div class="mb-3">
+                                                        <label for="message-text"
+                                                            class="col-form-label">Mensaje:</label>
+                                                        <textarea class="form-control" id="message-text"></textarea>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                                <a href="tp2.html" type="button" class="botonest">Enviar mensaje</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <h2>¿Cuales son las fuentes?</h2>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis illo assumenda
@@ -87,7 +116,7 @@
                                     veniam?
                                     Veniam voluptates autem tempore dolorem fugiat illum nobis? </p>
                                 <div class="cajacoment">
-                                    <a class="comentario" href="tp2.html">Comentar parrafo</a>
+                                    <a class="comentario" href="tp2.html">Comentar párrafo</a>
                                 </div>
                                 <h2>¿Cuál es el método geografico</h2>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis illo assumenda
@@ -95,7 +124,7 @@
                                     veniam?
                                     Veniam voluptates autem tempore dolorem fugiat illum nobis? </p>
                                 <div class="cajacoment">
-                                    <a class="comentario" href="tp2.html">Comentar parrafo</a>
+                                    <a class="comentario" href="tp2.html">Comentar párrafo</a>
                                 </div>
                                 <h2>¿Qué es la geografía?</h2>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis illo assumenda
@@ -103,7 +132,7 @@
                                     veniam?
                                     Veniam voluptates autem tempore dolorem fugiat illum nobis? </p>
                                 <div class="cajacoment">
-                                    <a class="comentario" href="tp2.html">Comentar parrafo</a>
+                                    <a class="comentario" href="tp2.html">Comentar párrafo</a>
                                 </div>
                                 <h2>¿Cuales son las fuentes?</h2>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis illo assumenda
@@ -111,7 +140,7 @@
                                     veniam?
                                     Veniam voluptates autem tempore dolorem fugiat illum nobis? </p>
                                 <div class="cajacoment">
-                                    <a class="comentario" href="tp2.html">Comentar parrafo</a>
+                                    <a class="comentario" href="tp2.html">Comentar párrafo</a>
                                 </div>
                                 <h2>¿Cuál es el método geografico</h2>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis illo assumenda
@@ -119,7 +148,7 @@
                                     veniam?
                                     Veniam voluptates autem tempore dolorem fugiat illum nobis? </p>
                                 <div class="cajacoment">
-                                    <a class="comentario" href="tp2.html">Comentar parrafo</a>
+                                    <a class="comentario" href="tp2.html">Comentar párrafo</a>
                                 </div>
                                 <h2>¿Qué es la geografía?</h2>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis illo assumenda
@@ -127,7 +156,7 @@
                                     veniam?
                                     Veniam voluptates autem tempore dolorem fugiat illum nobis? </p>
                                 <div class="cajacoment">
-                                    <a class="comentario" href="tp2.html">Comentar parrafo</a>
+                                    <a class="comentario" href="tp2.html">Comentar párrafo</a>
                                 </div>
                             </div>
                         </section>
@@ -143,22 +172,22 @@
             <nav aria-label="Menú principal" tabindex="1" class="sidenav order-first col-lg-2">
                 <img class="logo" src="img/Logo.png.png" alt="Pupitre">
                 <a href="index.html" class="flex activo">
-                  <img class="icon" src="img/colegios.svg" alt="">
-                  <p class="itemact">Colegios</p>
+                    <img class="icon" src="img/colegios.svg" alt="">
+                    <p class="itemact">Colegios</p>
                 </a>
                 <a class="inactivo flex" href="">
-                  <img class="icon" src="img/tareaspendientes.svg" alt="">
-                  <p>Tareas pendientes</p>
+                    <img class="icon" src="img/tareaspendientes.svg" alt="">
+                    <p>Tareas pendientes</p>
                 </a>
                 <a class="inactivo flex" href="">
-                  <img class="icon" src="img/calendario.svg" alt="">
-                  <p>Calendario</p>
+                    <img class="icon" src="img/calendario.svg" alt="">
+                    <p>Calendario</p>
                 </a>
                 <a class="inactivo flex" href="">
-                  <img class="icon" src="img/mirendimiento.svg" alt="">
-                  <p>Mi rendimiento</p>
+                    <img class="icon" src="img/mirendimiento.svg" alt="">
+                    <p>Mi rendimiento</p>
                 </a>
-              </nav>
+            </nav>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -166,9 +195,8 @@
         crossorigin="anonymous"></script>
     <script type="text/javascript">
         $('body').on("keydown", function (e) {
-            if (e.which === 65 || e.which === 64) {
-                alert("Vas a agregar un comentario");
-                e.preventDefault();
+            if (e.ctrlKey && e.shiftKey && e.which === 76) {
+                window.location.href = "index.html"
             }
         });
         $("#button").on("click", function (e) {
