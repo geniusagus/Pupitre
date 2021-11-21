@@ -16,22 +16,17 @@
 
 <body>
   <div class="container-fluid">
-    <!--Duda: Podemos tener estos divs acá? -->
-    <div class="row"> <!--Las cards es una lista de colegios.-->
+    <div class="row">
       <div class="col-lg-10">
         <header>
-          <nav class="topbar navbar navbar-expand-lg navbar-light bg-light">
-            <!--Duda:la navegacion en realidad es el aside? -->
+          <nav aria-label="Buscador" class="topbar navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <form class="d-flex"> <!--rol=search   role=“search”
-              -->
+              <form role="search" class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Buscá colegios, aulas o alumnos"
                   aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Buscar</button>
               </form>
-          <!--nav podria cerrar acá-->
-          <!--el div de abajo podria ser nav-->
-              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <nav aria-label="Mi erfil" class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -48,23 +43,22 @@
                     </ul>
                   </li>
                 </ul>
-              </div>
+              </nav>
             </div>
           </nav>
         </header>
         <main>
           <h1>Bienvenida, Martha</h1>
           <h2>¿A cuál colegio querés ingresar?</h2>
-          <div class="row row-cols-1 row-cols-md-4 g-4">
+          <ul class="row row-cols-1 row-cols-md-4 g-4">
             <div class="col">
-              <div class="card">
+              <li class="card">
                 <a href="aulas.html">
                   <div class="card-body">
                     <h5 class="card-title">Calazans</h5>
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item"><img class="icon m-0" src="img/calendario.svg" alt="">
-                      <!--dentro de li pueden ir elementos de linea-->
                       3 cursos
                     </li>
                     <li class="list-group-item"><img class="icon m-0" src="img/calendario.svg" alt="">
@@ -72,20 +66,19 @@
                   </ul>
                   <div class="card-body">
                     <p class="card-text rojo">Requiere atención</p>
-                    <a href="aulas.html" class="btn btn-primary">Ingresar al colegio</a>
+                    <span href="#" class="btn btn-primary">Ingresar al colegio</span>
                   </div>
                 </a>
-              </div>
+              </li>
             </div>
             <div class="col">
-              <div class="card">
+              <li class="card">
                 <a href="aulas.html">
                   <div class="card-body">
                     <h5 class="card-title">Calazans</h5>
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item"><img class="icon m-0" src="img/calendario.svg" alt="">
-                      <!--Se puede poner el img dentro de li?-->
                       3 cursos
                     </li>
                     <li class="list-group-item"><img class="icon m-0" src="img/calendario.svg" alt="">
@@ -93,20 +86,19 @@
                   </ul>
                   <div class="card-body">
                     <p class="card-text rojo">Requiere atención</p>
-                    <a href="aulas.html" class="btn btn-primary">Ingresar al colegio</a>
+                    <span href="#" class="btn btn-primary">Ingresar al colegio</span>
                   </div>
                 </a>
-              </div>
+              </li>
             </div>
             <div class="col">
-              <div class="card">
+              <li class="card">
                 <a href="aulas.html">
                   <div class="card-body">
                     <h5 class="card-title">Calazans</h5>
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item"><img class="icon m-0" src="img/calendario.svg" alt="">
-                      <!--Se puede poner el img dentro de li?-->
                       3 cursos
                     </li>
                     <li class="list-group-item"><img class="icon m-0" src="img/calendario.svg" alt="">
@@ -114,20 +106,19 @@
                   </ul>
                   <div class="card-body">
                     <p class="card-text rojo">Requiere atención</p>
-                    <a href="aulas.html" class="btn btn-primary">Ingresar al colegio</a>
+                    <span href="#" class="btn btn-primary">Ingresar al colegio</span>
                   </div>
                 </a>
-              </div>
+              </li>
             </div>
             <div class="col">
-              <div class="card">
+              <li class="card">
                 <a href="aulas.html">
                   <div class="card-body">
                     <h5 class="card-title">Calazans</h5>
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item"><img class="icon m-0" src="img/calendario.svg" alt="">
-                      <!--Se puede poner el img dentro de li?-->
                       3 cursos
                     </li>
                     <li class="list-group-item"><img class="icon m-0" src="img/calendario.svg" alt="">
@@ -135,17 +126,15 @@
                   </ul>
                   <div class="card-body">
                     <p class="card-text rojo">Requiere atención</p>
-                    <a href="aulas.html" class="btn btn-primary">Ingresar al colegio</a>
+                    <span href="#" class="btn btn-primary">Ingresar al colegio</span>
                   </div>
                 </a>
-              </div>
+              </li>
             </div>
-          </div>
+          </ul>
         </main>
       </div>
-      <!--de aside a nav, aria-label para diferenciar los navs, con nombre principal -->
       <nav aria-label="Menú principal" tabindex="1" class="sidenav order-first col-lg-2">
-        <!--Duda: necesita etiqueta nav? -->
         <img class="logo" src="img/Logo.png.png" alt="Pupitre">
         <a href="index.html" class="flex activo">
           <img class="icon" src="img/colegios.svg" alt="">
@@ -153,20 +142,22 @@
         </a>
         <a class="inactivo flex" href="">
           <img class="icon" src="img/tareaspendientes.svg" alt="">
-          <p >Tareas pendientes</p>
+          <p>Tareas pendientes</p>
         </a>
         <a class="inactivo flex" href="">
           <img class="icon" src="img/calendario.svg" alt="">
-          <p >Calendario</p>
+          <p>Calendario</p>
         </a>
         <a class="inactivo flex" href="">
           <img class="icon" src="img/mirendimiento.svg" alt="">
-          <p >Mi rendimiento</p>
+          <p>Mi rendimiento</p>
         </a>
       </nav>
     </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
