@@ -324,3 +324,19 @@ a{
 }
 
 .sticky-top { top: 0.5em; }
+
+
+
+.comentarioflotante{
+    position: absolute;
+    top: 450px;
+}
+
+.arre{
+    display: flex;
+    align-items: center;
+}
+
+.disnone{
+    display: none;
+}
