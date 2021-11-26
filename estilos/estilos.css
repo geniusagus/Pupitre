@@ -152,7 +152,7 @@ margin-bottom: 24px;
     border-radius: 16px;
     padding: 32px;
     border: 0.5px solid #CFCFCF;
-    margin: 16px;
+    margin:  0px 16px 16px 16px;
     text-decoration: none;
     background-color: #ffffff;
 }
@@ -239,6 +239,37 @@ font-weight: 500;
 line-height: 16px;
 letter-spacing: 0.25px;
 text-align: center;
+color: #ffffff;
+}
+
+.btn-primarya{
+    background-color: #5C65ED;
+    border-radius: 16px;
+    padding: 8px 24px 8px 24px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.25px;
+text-align: center;
+color: #ffffff;
+}
+
+.btn-secondary{
+    background-color: transparent;
+    border-radius: 16px;
+    padding: 8px 24px 8px 24px;
+    border: 1px solid #5C65ED;
+    font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.25px;
+text-align: center;
+color: #5C65ED;
 }
 
 .botonest{
@@ -329,14 +360,144 @@ a{
 
 .comentarioflotante{
     position: absolute;
-    top: 450px;
-}
+    top: 420px;
+    padding: 16px;
+    margin-right: 40px;}
 
 .arre{
     display: flex;
     align-items: center;
+    padding: 8px;
+    text-align: center;
 }
 
 .disnone{
     display: none;
+}
+
+.colorb{
+    color: #ffffff;
+}
+
+.flex2{
+    border-radius: 16px 16px 0 0;
+    background-color: #5C65ED;
+    display: flex;
+    justify-content: space-evenly;
+    width: auto
+}
+
+.editcal{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 8px;
+}
+
+.fs-7{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.modal-footer{
+    justify-content: center;
+    border: none;
+    margin-top: 24px;
+}
+
+.modal-header{
+    border: none;
+}
+
+.modal-content{
+    border-radius: 24px;
+    padding: 16px 24px 16px 24px;
+}
+.perfil{
+    background-color: #ffffff;
+    border-radius: 24px;
+    padding: 32px;
+    border: solid 1px #CFCFCF;
+    display: flex;
+    margin: 8px;
+}
+
+.fiximg{
+    width: 120px;
+    margin-right: 24px;
+    }
+
+.bold{
+    font-weight: 800;
+}
+
+.card2{
+    background-color: #ffffff;
+    border-radius: 24px;
+    border: solid 1px #CFCFCF;
+    padding: 24px;
+    display: flex;
+    margin: 8px;
+    transition: 100ms;
+
+}
+
+.fixicon{
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+}
+
+.tareas2{
+    background-color: #ffffff;
+    border-radius: 24px;
+    padding: 32px;
+    border: solid 1px #CFCFCF;
+    margin: 8px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.tagcritico2{
+    border-radius: 8px;
+    background-color: #FD7014;
+    padding: 8px;
+    display: inline-block;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.vord{
+    border-bottom: 2px solid #FD7014;
+    margin: 0 8px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    border-radius: 0 0 0 8px;
+
+}
+
+.tagcritico3{
+    border-radius: 8px;
+    background-color: #FFD954;;
+    padding: 8px;
+    display: inline-block;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.vord3{
+    border-bottom: 2px solid #FFD954;;
+    margin: 0 8px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    border-radius: 0 0 0 8px;
+
+}
+
+.card2:hover{
+    border: 1px solid #5C65ED;
+    transform: scale(1.02);
 }
