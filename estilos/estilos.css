@@ -11,6 +11,10 @@ ul{
     padding: 0;
 }
 
+li{
+    list-style-type: none;
+}
+
 .topbar{
     background-color: #ffffff;
     width: 100%;
@@ -98,6 +102,8 @@ main{
     padding: 24px;
 }
 
+
+
 h1{
 font-family: 'Roboto', sans-serif;
 font-size: 20px;
@@ -135,7 +141,7 @@ margin-bottom: 24px;
 
 .card{
     border-radius: 16px;
-    padding: 32px;
+    padding: 24px;
     border: 0.5px solid #CFCFCF;
     margin-left: 16px;
     margin-top: 16px;
@@ -240,6 +246,36 @@ line-height: 16px;
 letter-spacing: 0.25px;
 text-align: center;
 color: #ffffff;
+}
+
+.btn-primaryfix{
+    background-color: #5C65ED;
+    border-radius: 16px;
+    padding: 8px 24px 8px 24px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.25px;
+text-align: center;
+color: #ffffff;
+}
+
+.btn-primaryfix:hover{
+    background-color: #505ae2 ;
+    color: #ffffff;
+}
+
+
+.bat{
+    border: 1px solid #FD7014;
+}
+
+
+.mr16{
+    margin-right: 16px;
 }
 
 .btn-primarya{
@@ -361,7 +397,7 @@ a{
 
 .comentarioflotante{
     position: absolute;
-    top: 420px;
+    top: 470px;
     padding: 16px;
     margin-right: 40px;}
 
@@ -501,4 +537,23 @@ a{
 .card2:hover{
     border: 1px solid #5C65ED;
     transform: scale(1.02);
+}
+
+.tagcritico4{
+    border-radius: 8px;
+    background-color: #1B8351;
+    padding: 8px;
+    display: inline-block;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.vord4{
+    border-bottom: 2px solid #1B8351;
+    margin: 0 8px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    border-radius: 0 0 0 8px;
+
 }

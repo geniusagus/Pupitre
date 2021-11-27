@@ -50,7 +50,7 @@
                     </nav>
                 </header>
                 <main>
-                    <nav aria-label="breadcrumb">
+                    <nav aria-label="Migas de pan">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html">Mis colegios</a></li>
                             <li class="breadcrumb-item"><a href="aulas.html">Colegio Calazans</a></li>
@@ -60,9 +60,9 @@
                             <li class="breadcrumb-item active" aria-current="page">TP 02</li>
                           </ol>
                     </nav>
-                    <!--<p>Pulsa la combinacion Ctrl + Shift + L de tu teclado para añadir un comentario mientras lees el trabajo de
+                    <p>Pulsa la combinacion Ctrl + Shift + L de tu teclado para añadir un comentario mientras lees el trabajo de
                         Macarena.
-                    </p>-->
+                    </p>
                     <article class="row">
                         <section class="col-lg-8">
                             <div class="barra">
@@ -84,10 +84,9 @@
                                     veniam?
                                     Veniam voluptates autem tempore dolorem fugiat illum nobis? </p>
                                 <div class="cajacoment">
-                                    <button class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Comentar
+                                    <button class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal" id="test">Comentar
                                         párrafo</button>
                                 </div>
-                                <!--no aparece la manito en hover con el boton-->
                                 <div class="modal fade" id="exampleModal" tabindex="-1"
                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
@@ -95,7 +94,7 @@
                                             <div class="modal-header">
                                                 <h5 class="modal-title" id="exampleModalLabel">Nuevo comentario</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
+                                                    aria-label="Cerrar"></button>
                                             </div>
                                             <div class="modal-body">
                                                 <form>
@@ -202,7 +201,7 @@
                                 <div class="modal-dialog modcal">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <a href="calificado.html" type="button" class="btn-close" aria-label="Close"></a>
+                                            <a href="calificado.html" type="button" class="btn-close" aria-label="Cerrar"></a>
                                         </div>
 
                                         <div class="modal-body">
@@ -219,7 +218,8 @@
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary"
                                                     data-bs-dismiss="modal">Revisar mi rendimiento</button>
-                                                <a href="alumnos.html" type="button" class="btn-primarya">Seguir corrigiendo</a>
+
+                                                <a href="alumnos2.html" type="button" class="btn-primaryfix">Seguir corrigiendo</a>
                                             </div>
                                         </div>
                                     </div>
@@ -256,14 +256,12 @@
     <script type="text/javascript">
         $('body').on("keydown", function (e) {
             if (e.ctrlKey && e.shiftKey && e.which === 76) {
-                window.location.href = "index.html"
+                // window.location.href = "index.html"
+                $("#test").trigger("click")
             }
         });
-        $("#button").on("click", function (e) {
-            alert("You clicked button");
-        });
+      
     </script>
-    <!--aca falta el ctrl + o -->
 </body>
 
 </html>
