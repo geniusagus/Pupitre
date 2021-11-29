@@ -225,11 +225,11 @@ text-decoration: none;
 }
 
 .rojo{
-    color: #FD7014;
+    color: #D82400;
 }
 
 .verde{
-    color: #00A679;
+    color: #008252;
 }
 
 .btn-primary{
@@ -397,7 +397,7 @@ a{
 
 .comentarioflotante{
     position: absolute;
-    top: 470px;
+    top: 540px;
     padding: 16px;
     margin-right: 40px;}
 
@@ -556,4 +556,8 @@ a{
     margin-top: 16px;
     border-radius: 0 0 0 8px;
 
+}
+
+.fixo{
+    margin: 0 8px 8px 8px;
 }

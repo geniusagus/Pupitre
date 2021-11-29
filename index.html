@@ -17,6 +17,9 @@
 <!-- fotos de alumnos, le ponemos un alt o le sacamos el foco-->
 <!-- iconos deco, le ponemos un alt o le sacamos el foco-->
 <!--cambiar close-->
+<!--en macarnea, es una UL dentro de la card?-->
+<!--en el modal, que h es?-->
+
 <body>
   <div class="container-fluid">
     <div class="row">
@@ -26,10 +29,11 @@
             <div class="container-fluid">
               <form role="search" class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Buscá colegios, aulas o alumnos"
-                  aria-label="Search">
+                  aria-label="Buscar">
                 <button class="btn btn-outline-success" type="submit">Buscar</button>
               </form>
-              <nav aria-label="Mi erfil" class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <nav aria-label="Mi perfil" class="collapse navbar-collapse justify-content-end"
+                id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -58,13 +62,13 @@
               <li class="card ms-0 bat">
                 <a href="aulas.html">
                   <div class="card-body">
-                    <h5 class="card-title">Calazans</h5>
+                    <h3 class="card-title">Calazans</h3>
                   </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><img class="icon m-0" src="img/calendario.svg" alt="">
+                    <li class="list-group-item"><img class="icon m-0" src="img/cursos.png" alt=" ">
                       3 cursos
                     </li>
-                    <li class="list-group-item"><img class="icon m-0" src="img/calendario.svg" alt="">
+                    <li class="list-group-item"><img class="icon m-0" src="img/alumnos.png" alt=" ">
                       90 alumnos</li>
                   </ul>
                   <div class="card-body">
@@ -78,13 +82,13 @@
               <li class="card ms-0">
                 <a href="aulas.html">
                   <div class="card-body">
-                    <h5 class="card-title">Medalla Milagrosa</h5>
+                    <h3 class="card-title">Medalla Milagrosa</h3>
                   </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><img class="icon m-0" src="img/calendario.svg" alt="">
+                    <li class="list-group-item"><img class="icon m-0" src="img/cursos.png" alt=" ">
                       5 cursos
                     </li>
-                    <li class="list-group-item"><img class="icon m-0" src="img/calendario.svg" alt="">
+                    <li class="list-group-item"><img class="icon m-0" src="img/alumnos.png" alt=" ">
                       151 alumnos</li>
                   </ul>
                   <div class="card-body">
@@ -98,13 +102,13 @@
               <li class="card ms-0">
                 <a href="aulas.html">
                   <div class="card-body">
-                    <h5 class="card-title">Excélsior</h5>
+                    <h3 class="card-title">Excélsior</h3>
                   </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><img class="icon m-0" src="img/calendario.svg" alt="">
+                    <li class="list-group-item"><img class="icon m-0" src="img/cursos.png" alt=" ">
                       4 cursos
                     </li>
-                    <li class="list-group-item"><img class="icon m-0" src="img/calendario.svg" alt="">
+                    <li class="list-group-item"><img class="icon m-0" src="img/alumnos.png" alt=" ">
                       121 alumnos</li>
                   </ul>
                   <div class="card-body">
@@ -117,24 +121,26 @@
           </ul>
         </main>
       </div>
-      <nav aria-label="Menú principal" tabindex="1" class="sidenav order-first col-lg-2">
-        <img class="logo" src="img/Logo.png.png" alt="Pupitre">
-        <a href="index.html" class="flex activo">
-          <img class="icon" src="img/colegios.svg" alt="">
-          <p class="itemact">Colegios</p>
-        </a>
-        <a class="inactivo flex" href="">
-          <img class="icon" src="img/tareaspendientes.svg" alt="">
-          <p>Tareas pendientes</p>
-        </a>
-        <a class="inactivo flex" href="">
-          <img class="icon" src="img/calendario.svg" alt="">
-          <p>Calendario</p>
-        </a>
-        <a class="inactivo flex" href="">
-          <img class="icon" src="img/mirendimiento.svg" alt="">
-          <p>Mi rendimiento</p>
-        </a>
+      <nav aria-label="Menú principal" class="sidenav order-first col-lg-2">
+        <img class="logo" src="img/Logo.png.png" alt="Logo de Pupitre">
+        <ul>
+          <li><a href="index.html" class="flex activo">
+              <img class="icon" src="img/colegios.svg" alt=" ">
+              <p class="itemact">Colegios</p>
+            </a></li>
+          <li class="inactivo flex fixo">
+            <img class="icon" src="img/tareaspendientes.svg" alt=" ">
+            <p>Tareas pendientes</p>
+          </li>
+          <li class="inactivo flex fixo">
+            <img class="icon" src="img/calendario.svg" alt=" ">
+            <p>Calendario</p>
+          </li>
+          <li class="inactivo flex fixo">
+            <img class="icon" src="img/mirendimiento.svg" alt=" ">
+            <p>Mi rendimiento</p>
+          </li>
+        </ul>
       </nav>
     </div>
   </div>
