@@ -17,6 +17,35 @@
 <body>
   <div class="container-fluid">
     <div class="row">
+      <nav aria-label="Menú principal" class="sidenav order-first col-lg-2">
+        <a aria-label="Ir a la página principal" href="index.html"><img class="logo" src="img/Logo.png.png" alt="Logo de Pupitre"></a>
+        <ul>
+            <li aria-current="page">
+                <span href="index.html" class="flex activo fixo">
+                    <img class="icon" src="img/colegios.svg" alt="">
+                    <p class="itemact">Colegios</p>
+                </span>
+            </li>
+            <li>
+                <a class="inactivo flex fixo" href="#">
+                    <img class="icon" src="img/tareaspendientes.svg" alt="">
+                    <p>Tareas pendientes</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="inactivo flex fixo">
+                    <img class="icon" src="img/calendario.svg" alt="">
+                    <p>Calendario</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="inactivo flex fixo">
+                    <img class="icon" src="img/mirendimiento.svg" alt="">
+                    <p>Mi rendimiento</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
       <div class="col-lg-10">
         <header>
           <nav aria-label="Buscador" class="topbar navbar navbar-expand-lg navbar-light bg-light">
@@ -58,11 +87,12 @@
             </ol>
           </nav>
           <section class="perfil">
-            <img class="fiximg" src="img/fotodeperfil.png" alt=" ">
+            <img class="fiximg" src="img/fotodeperfil.png"
+              alt="Descripción de la foto de Macarena: En esta foto estoy en el cumple de mi mamá que hicimos en casa, me puse un pollera de jean que me regalaron y una remera blanca">
             <div>
               <h1 class="fs-2 bold">Macarena Gonzalez</h1>
               <p>3-A - Calazans</p>
-              <span href="#" class="btn btn-primary">Enviar mensaje</span>
+              <span class="btn btn-primary">Enviar mensaje</span>
             </div>
           </section>
           <ul class="row">
@@ -71,7 +101,7 @@
                 <img class="fixicon" src="img/icono1.png" alt="">
                 <div>
                   <h2 class="mb-1">Tareas</h2>
-                  <p class="text-dark" >Macarena entregó 4 de 6 trabajos.
+                  <p class="text-dark">Macarena entregó 4 de 6 trabajos.
                     Tenés que corregir 2 trabajos.</p>
                   <span>Revisar</span>
                 </div>
@@ -84,7 +114,7 @@
                   <h2 class="mb-1">Calificación promedio</h2>
                   <p>Macarena tiene un promedio de 5.
                     Su calificación más baja es un 4.</p>
-                  <span href="#">Revisar</span>
+                  <span>Revisar</span>
                 </div>
               </div>
             </li>
@@ -96,7 +126,7 @@
                 <div>
                   <h2 class="mb-1">Inasistencias</h2>
                   <p>Macarena tiene 6 inasistencias</p>
-                  <span href="#">Revisar</span>
+                  <span>Revisar</span>
                 </div>
               </div>
             </li>
@@ -107,34 +137,14 @@
                   <h2 class="mb-1">Participación en clase</h2>
                   <p>Macarena tiene 3 estrellas de participación.
                   </p>
-                  <span href="#">Revisar</span>
+                  <span>Revisar</span>
                 </div>
               </div>
             </li>
           </ul>
         </main>
       </div>
-          <nav aria-label="Menú principal" class="sidenav order-first col-lg-2">
-        <img class="logo" src="img/Logo.png.png" alt="Logo de Pupitre">
-        <ul>
-          <li><a href="index.html" class="flex activo">
-              <img class="icon" src="img/colegios.svg" alt=" ">
-              <p class="itemact">Colegios</p>
-            </a></li>
-          <li class="inactivo flex fixo">
-            <img class="icon" src="img/tareaspendientes.svg" alt=" ">
-            <p>Tareas pendientes</p>
-          </li>
-          <li class="inactivo flex fixo">
-            <img class="icon" src="img/calendario.svg" alt=" ">
-            <p>Calendario</p>
-          </li>
-          <li class="inactivo flex fixo">
-            <img class="icon" src="img/mirendimiento.svg" alt=" ">
-            <p>Mi rendimiento</p>
-          </li>
-        </ul>
-      </nav>
+
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

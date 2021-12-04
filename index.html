@@ -13,19 +13,7 @@
   <link rel="stylesheet" href="estilos/estilos.css">
   <title>Pupitre</title>
 </head>
-<!-- fuera de lista n hay drama, dentro no hace falta que sea ul.-->
-<!-- sacar hrf de los span en botones-->
-<!-- reforzar sin tareas con icono-->
-<!-- h1 font size-->
-<!-- nav principal al principio comoe sta en index-->
-<!-- links que no llevan a a #-->
-<!-- alt con "" sin nada en el medio-->
-<!-- ariacurrent en colegios y deja de ser un a-->
-<!-- combinacion de teclas es un p-->
 
-
-<!-- fotos de alumnos, le ponemos un alt cuando esta en el perfil-->
-<!-- iconos deco, le ponemos un alt o le sacamos el foco-->
 <!--en el modal, que h es?-->
 
 <body>
@@ -33,26 +21,34 @@
   <div class="container-fluid">
     <div class="row">
       <nav aria-label="Menú principal" class="sidenav order-first col-lg-2">
-        <img class="logo" src="img/Logo.png.png" alt="Logo de Pupitre">
+        <a aria-label="Ir a la página principal" href="index.html"><img class="logo" src="img/Logo.png.png" alt="Logo de Pupitre"></a>
         <ul>
-          <li><a href="index.html" class="flex activo">
-              <img class="icon" src="img/colegios.svg" alt=" ">
-              <p class="itemact">Colegios</p>
-            </a></li>
-          <li class="inactivo flex fixo">
-            <img class="icon" src="img/tareaspendientes.svg" alt=" ">
-            <p>Tareas pendientes</p>
-          </li>
-          <li class="inactivo flex fixo">
-            <img class="icon" src="img/calendario.svg" alt=" ">
-            <p>Calendario</p>
-          </li>
-          <li class="inactivo flex fixo">
-            <img class="icon" src="img/mirendimiento.svg" alt=" ">
-            <p>Mi rendimiento</p>
-          </li>
+            <li aria-current="page">
+                <span href="index.html" class="flex activo fixo">
+                    <img class="icon" src="img/colegios.svg" alt="">
+                    <p class="itemact">Colegios</p>
+                </span>
+            </li>
+            <li>
+                <a class="inactivo flex fixo" href="#">
+                    <img class="icon" src="img/tareaspendientes.svg" alt="">
+                    <p>Tareas pendientes</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="inactivo flex fixo">
+                    <img class="icon" src="img/calendario.svg" alt="">
+                    <p>Calendario</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="inactivo flex fixo">
+                    <img class="icon" src="img/mirendimiento.svg" alt="">
+                    <p>Mi rendimiento</p>
+                </a>
+            </li>
         </ul>
-      </nav>
+    </nav>
       <div class="col-lg-10">
         
         <header>
@@ -86,7 +82,7 @@
           </nav>
         </header>
         <main>
-          <h1>Bienvenida Martha</h1>
+          <h1 class="fs-3">Bienvenida Martha</h1>
           <h2>Elegí el colegio con el que vas a trabajar</h2>
           <ul class="row row-cols-1 row-cols-md-4 g-4">
             <div class="col">
@@ -96,14 +92,15 @@
                     <h3 class="card-title">Calazans</h3>
                   </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><img class="icon m-0" src="img/cursos.png" alt=" ">
+                    <li class="list-group-item"><img class="icon m-0" src="img/cursos.png" alt="">
                       3 cursos
                     </li>
-                    <li class="list-group-item"><img class="icon m-0" src="img/alumnos.png" alt=" ">
+                    <li class="list-group-item"><img class="icon m-0" src="img/alumnos.png" alt="">
                       90 alumnos</li>
                   </ul>
                   <div class="card-body">
-                    <p class="card-text rojo">Hay tareas pendientes</p>
+                    <img src="img/WarningCircle.png" alt="">
+                    <p class="d-inline-block card-text rojo">Hay tareas pendientes</p>
                     <span class="btn btn-primary">Ingresar</span>
                   </div>
                 </a>
@@ -116,15 +113,16 @@
                     <h3 class="card-title">Medalla Milagrosa</h3>
                   </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><img class="icon m-0" src="img/cursos.png" alt=" ">
+                    <li class="list-group-item"><img class="icon m-0" src="img/cursos.png" alt="">
                       5 cursos
                     </li>
-                    <li class="list-group-item"><img class="icon m-0" src="img/alumnos.png" alt=" ">
+                    <li class="list-group-item"><img class="icon m-0" src="img/alumnos.png" alt="">
                       151 alumnos</li>
                   </ul>
                   <div class="card-body">
-                    <p class="card-text verde">Sin tareas pendientes</p>
-                    <span href="#" class="btn btn-primary">Ingresar</span>
+                    <img src="img/Check.png" alt="">
+                    <p class="card-text verde d-inline-block">Sin tareas pendientes</p>
+                    <span class="btn btn-primary">Ingresar</span>
                   </div>
                 </a>
               </li>
@@ -136,15 +134,16 @@
                     <h3 class="card-title">Excélsior</h3>
                   </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><img class="icon m-0" src="img/cursos.png" alt=" ">
+                    <li class="list-group-item"><img class="icon m-0" src="img/cursos.png" alt="">
                       4 cursos
                     </li>
-                    <li class="list-group-item"><img class="icon m-0" src="img/alumnos.png" alt=" ">
+                    <li class="list-group-item"><img class="icon m-0" src="img/alumnos.png" alt="">
                       121 alumnos</li>
                   </ul>
                   <div class="card-body">
-                    <p class="card-text verde">Sin tareas pendientes</p>
-                    <span href="#" class="btn btn-primary">Ingresar</span>
+                    <img src="img/Check.png" alt="">
+                    <p class="card-text verde d-inline-block">Sin tareas pendientes</p>
+                    <span class="btn btn-primary">Ingresar</span>
                   </div>
                 </a>
               </li>

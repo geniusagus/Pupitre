@@ -17,6 +17,35 @@
 <body>
   <div class="container-fluid">
     <div class="row">
+      <nav aria-label="Menú principal" class="sidenav order-first col-lg-2">
+        <a aria-label="Ir a la página principal" href="index.html"><img class="logo" src="img/Logo.png.png" alt="Logo de Pupitre"></a>
+        <ul>
+            <li aria-current="page">
+                <span href="index.html" class="flex activo fixo">
+                    <img class="icon" src="img/colegios.svg" alt="">
+                    <p class="itemact">Colegios</p>
+                </span>
+            </li>
+            <li>
+                <a class="inactivo flex fixo" href="#">
+                    <img class="icon" src="img/tareaspendientes.svg" alt="">
+                    <p>Tareas pendientes</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="inactivo flex fixo">
+                    <img class="icon" src="img/calendario.svg" alt="">
+                    <p>Calendario</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="inactivo flex fixo">
+                    <img class="icon" src="img/mirendimiento.svg" alt="">
+                    <p>Mi rendimiento</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
       <div class="col-lg-10">
         <header>
           <nav aria-label="Buscador" class="topbar navbar navbar-expand-lg navbar-light bg-light">
@@ -55,7 +84,7 @@
               <li class="breadcrumb-item active" aria-current="page">Colegio Calazans</li>
             </ol>
           </nav>
-          <h1>Colegio Calazans</h1>
+          <h1 class="fs-3">Colegio Calazans</h1>
           <h2>¿A cuál aula querés ingresar?</h2>
           <ul class="row row-cols-1 row-cols-md-4 g-4">
             <div class="col">
@@ -65,10 +94,10 @@
                     <h3 class="card-title">3-A</h3>
                   </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><img class="icon m-0" src="img/alumnos.png" alt=" ">
+                    <li class="list-group-item"><img class="icon m-0" src="img/alumnos.png" alt="">
                       30 alumnos
                     </li>
-                    <li class="list-group-item"><img class="icon m-0" src="img/faltas.png" alt=" ">
+                    <li class="list-group-item"><img class="icon m-0" src="img/faltas.png" alt="">
                       70% de asistencia</li>
                   </ul>
                   <div class="card-body">
@@ -87,10 +116,10 @@
                     <h3 class="card-title">4-A</h3>
                   </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><img class="icon m-0" src="img/alumnos.png" alt=" ">
+                    <li class="list-group-item"><img class="icon m-0" src="img/alumnos.png" alt="">
                       60 alumnos
                     </li>
-                    <li class="list-group-item"><img class="icon m-0" src="img/faltas.png" alt=" ">
+                    <li class="list-group-item"><img class="icon m-0" src="img/faltas.png" alt="">
                       70% de asistencia</li>
                   </ul>
                   <div class="card-body">
@@ -104,27 +133,7 @@
           </ul>
         </main>
       </div>
-          <nav aria-label="Menú principal" class="sidenav order-first col-lg-2">
-        <img class="logo" src="img/Logo.png.png" alt="Logo de Pupitre">
-        <ul>
-          <li><a href="index.html" class="flex activo">
-              <img class="icon" src="img/colegios.svg" alt=" ">
-              <p class="itemact">Colegios</p>
-            </a></li>
-          <li class="inactivo flex fixo">
-            <img class="icon" src="img/tareaspendientes.svg" alt=" ">
-            <p>Tareas pendientes</p>
-          </li>
-          <li class="inactivo flex fixo">
-            <img class="icon" src="img/calendario.svg" alt=" ">
-            <p>Calendario</p>
-          </li>
-          <li class="inactivo flex fixo">
-            <img class="icon" src="img/mirendimiento.svg" alt=" ">
-            <p>Mi rendimiento</p>
-          </li>
-        </ul>
-      </nav>
+  
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
