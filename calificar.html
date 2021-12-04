@@ -19,7 +19,8 @@
     <div class="container-fluid">
         <div class="row">
             <nav aria-label="Menú principal" class="sidenav order-first col-lg-2">
-                <a aria-label="Ir a la página principal" href="index.html"><img class="logo" src="img/Logo.png.png" alt="Logo de Pupitre"></a>
+                <a aria-label="Ir a la página principal" href="index.html"><img class="logo" src="img/Logo.png.png"
+                        alt="Logo de Pupitre"></a>
                 <ul>
                     <li aria-current="page">
                         <span href="index.html" class="flex activo fixo">
@@ -83,7 +84,7 @@
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html">Mis colegios</a></li>
                             <li class="breadcrumb-item"><a href="aulas.html">Colegio Calazans</a></li>
-                            <li class="breadcrumb-item"><a href="alumnos.html">5-B</a></li>
+                            <li class="breadcrumb-item"><a href="alumnos.html" aria-label="Quinto B">5-B</a></li>
                             <li class="breadcrumb-item"><a href="macarena.html">Macarena Gonzalez</a></li>
                             <li class="breadcrumb-item"><a href="trabajos.html">Trabajos</a></li>
                             <li class="breadcrumb-item active" aria-current="page">TP 02</li>
@@ -92,12 +93,10 @@
                     <h1 class="fs-3">Este es el TP1 de Macarena</h1>
 
                     <p>Pulsa la combinacion Ctrl + Shift + L de tu teclado para añadir un comentario mientras lees el
-                        trabajo de
-                        Macarena.
-                    </p>
+                        trabajo de Macarena.</p>
                     <div class="row">
                         <section class="col-lg-8">
-                            <div class="barra">
+                            <div aria-hidden="true" class="barra">
                                 <!--ocultar esto con el narrador-->
                                 <h3 class="m-0">Zoom</h3>
                                 <img class="m-2" src="img/sep.svg" alt="">
@@ -105,29 +104,23 @@
                                 <img class="m-2" src="img/sep.svg" alt="">
                                 <img class="m-2" src="img/zoomout.svg" alt="">
                             </div>
-                            <div class="hoja">
-                                <h1 class="fs-1 my-4">Tp1 n-02</h1>
+                            <article class="hoja">
+                                <h1 class="fs-1 my-4">Tp1</h1>
                                 <h2 class="fs-2 my-4">Bases geográficas</h2>
-                                <h3 class="fs-6 my-4">Por Macarena Gonzalez</h3>
+                                <p class="fs-6 my-4">Por Macarena Gonzalez</p>
                                 <hr>
-                                <h2>¿Qué es la geografía?</h2>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis illo assumenda
-                                    alias iure sunt error explicabo doloremque dolore ipsa suscipit! Expedita,
-                                    veniam?
-                                    Veniam voluptates autem tempore dolorem fugiat illum nobis? </p>
+                                <h2>¿Cuanto es 8 multiplicado por 8?</h2>
+                                <p id="parrafo1">La respuesta es 67</p>
                                 <div class="cajacoment">
-                                    <button class="btn btn-link" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">Comentar
-                                        párrafo</button>
+                                    <button aria-describedby="parrafo1" class="btn btn-link" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Comentar párrafo</button>
                                 </div>
-                                <!--no aparece la manito en hover con el boton-->
-                                <div class="modal fade" id="comentar" tabindex="-1" aria-labelledby="comentar"
-                                    aria-hidden="true">
-
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h2 class="modal-title" id="comentar">Nuevo comentario</h2>
+                                                <h2 class="modal-title" id="exampleModalLabel">Nuevo comentario</h2>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Cerrar"></button>
                                             </div>
@@ -143,74 +136,29 @@
                                             </div>
                                             <div class="modal-footer m-0">
 
-                                                <a href="tp2.html" type="button" class="btn-primarya">Enviar</a>
+                                                <a href="tp2.html" type="button" class="btn btn-primary">Enviar</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <h2>¿Cuales son las fuentes?</h2>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis illo assumenda
-                                    alias iure sunt error explicabo doloremque dolore ipsa suscipit! Expedita,
-                                    veniam?
-                                    Veniam voluptates autem tempore dolorem fugiat illum nobis? </p>
+
+                                <h2>¿Cuanto es 9 multiplicado por 9?</h2>
+                                <p id="parrafo2">La respuesta es 81</p>
                                 <div class="cajacoment">
-                                    <button class="btn btn-link" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">Comentar
-                                        párrafo</button>
+                                    <button aria-describedby="parrafo2" class="btn btn-link" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Comentar párrafo</button>
                                 </div>
-                                <h2>¿Cuál es el método geografico</h2>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis illo assumenda
-                                    alias iure sunt error explicabo doloremque dolore ipsa suscipit! Expedita,
-                                    veniam?
-                                    Veniam voluptates autem tempore dolorem fugiat illum nobis? </p>
-                                <div class="cajacoment">
-                                    <button class="btn btn-link" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">Comentar
-                                        párrafo</button>
-                                </div>
-                                <h2>¿Qué es la geografía?</h2>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis illo assumenda
-                                    alias iure sunt error explicabo doloremque dolore ipsa suscipit! Expedita,
-                                    veniam?
-                                    Veniam voluptates autem tempore dolorem fugiat illum nobis? </p>
-                                <div class="cajacoment">
-                                    <button class="btn btn-link" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">Comentar
-                                        párrafo</button>
-                                </div>
-                                <h2>¿Cuales son las fuentes?</h2>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis illo assumenda
-                                    alias iure sunt error explicabo doloremque dolore ipsa suscipit! Expedita,
-                                    veniam?
-                                    Veniam voluptates autem tempore dolorem fugiat illum nobis? </p>
-                                <div class="cajacoment">
-                                    <button class="btn btn-link" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">Comentar
-                                        párrafo</button>
-                                </div>
-                                <h2>¿Cuál es el método geografico</h2>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis illo assumenda
-                                    alias iure sunt error explicabo doloremque dolore ipsa suscipit! Expedita,
-                                    veniam?
-                                    Veniam voluptates autem tempore dolorem fugiat illum nobis? </p>
-                                <div class="cajacoment">
-                                    <button class="btn btn-link" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">Comentar
-                                        párrafo</button>
-                                </div>
-                                <h2>¿Qué es la geografía?</h2>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis illo assumenda
-                                    alias iure sunt error explicabo doloremque dolore ipsa suscipit! Expedita,
-                                    veniam?
-                                    Veniam voluptates autem tempore dolorem fugiat illum nobis? </p>
-                                <div class="cajacoment">
-                                    <button class="btn btn-link" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">Comentar
-                                        párrafo</button>
-                                </div>
-                            </div>
+                            </article>
                         </section>
                         <section class="col-lg-4">
+                            <div class="card3 comentarioflotante">
+                                <img class="fotodeperfil" src="img/martha.png" alt="">
+                                <h3 class="d-inline">Prof. Martha</h3>
+                                <h4 class="fs-7">Hoy, 18:12</h4>
+                                <p>Este concepto está un poco confuso. Maca deberías hacer repasar la ppt de la
+                                    clase.
+                                </p>
+                            </div>
                             <div class="card3 p-3">
                                 <form>
                                     <div class="mb-3">
@@ -271,14 +219,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card3 comentarioflotante">
-                                <img class="fotodeperfil" src="img/martha.png" alt="">
-                                <h3 class="d-inline">Prof. Martha</h3>
-                                <h4 class="fs-7">Hoy, 18:12</h4>
-                                <p>Este concepto está un poco confuso. Maca deberías hacer repasar la ppt de la
-                                    clase.
-                                </p>
-                            </div>
+
                         </section>
                     </div>
                 </main>
