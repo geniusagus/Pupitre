@@ -17,35 +17,36 @@
 <body>
   <div class="container-fluid">
     <div class="row">
-      <nav aria-label="Menú principal" class="sidenav order-first col-lg-2">
-        <a aria-label="Ir a la página principal" href="index.html"><img class="logo" src="img/Logo.png.png" alt="Logo de Pupitre"></a>
+       <nav aria-label="Menú principal" role="menubar" class="sidenav order-first col-lg-2">
+        <a aria-label="Ir a la página principal" href="index.html"><img class="logo" src="img/Logo.png.png"
+            alt="Logo de Pupitre"></a>
         <ul>
-            <li aria-current="page">
-                <span href="index.html" class="flex activo fixo">
-                    <img class="icon" src="img/colegios.svg" alt="">
-                    <p class="itemact">Colegios</p>
-                </span>
-            </li>
-            <li>
-                <a class="inactivo flex fixo" href="#">
-                    <img class="icon" src="img/tareaspendientes.svg" alt="">
-                    <p>Tareas pendientes</p>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="inactivo flex fixo">
-                    <img class="icon" src="img/calendario.svg" alt="">
-                    <p>Calendario</p>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="inactivo flex fixo">
-                    <img class="icon" src="img/mirendimiento.svg" alt="">
-                    <p>Mi rendimiento</p>
-                </a>
-            </li>
+          <li role="menuitem" aria-current="page">
+            <span href="index.html" class="flex activo fixo">
+              <img class="icon" src="img/colegios.svg" alt="">
+              <p class="itemact">Colegios</p>
+            </span>
+          </li>
+          <li role="menuitem">
+            <a class="inactivo flex fixo" href="#">
+              <img class="icon" src="img/tareaspendientes.svg" alt="">
+              <p>Tareas pendientes</p>
+            </a>
+          </li>
+          <li role="menuitem">
+            <a href="#" class="inactivo flex fixo">
+              <img class="icon" src="img/calendario.svg" alt="">
+              <p>Calendario</p>
+            </a>
+          </li>
+          <li role="menuitem">
+            <a href="#" class="inactivo flex fixo">
+              <img class="icon" src="img/mirendimiento.svg" alt="">
+              <p>Mi rendimiento</p>
+            </a>
+          </li>
         </ul>
-    </nav>
+      </nav>
       <div class="col-lg-10">
         <header>
           <nav aria-label="Buscador" class="topbar navbar navbar-expand-lg navbar-light bg-light">

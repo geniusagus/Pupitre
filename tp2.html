@@ -18,29 +18,29 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <nav aria-label="Menú principal" class="sidenav order-first col-lg-2">
+            <nav aria-label="Menú principal" role="menubar" class="sidenav order-first col-lg-2">
                 <a aria-label="Ir a la página principal" href="index.html"><img class="logo" src="img/Logo.png.png"
                         alt="Logo de Pupitre"></a>
                 <ul>
-                    <li aria-current="page">
+                    <li role="menuitem" aria-current="page">
                         <span href="index.html" class="flex activo fixo">
                             <img class="icon" src="img/colegios.svg" alt="">
                             <p class="itemact">Colegios</p>
                         </span>
                     </li>
-                    <li>
+                    <li role="menuitem">
                         <a class="inactivo flex fixo" href="#">
                             <img class="icon" src="img/tareaspendientes.svg" alt="">
                             <p>Tareas pendientes</p>
                         </a>
                     </li>
-                    <li>
+                    <li role="menuitem">
                         <a href="#" class="inactivo flex fixo">
                             <img class="icon" src="img/calendario.svg" alt="">
                             <p>Calendario</p>
                         </a>
                     </li>
-                    <li>
+                    <li role="menuitem">
                         <a href="#" class="inactivo flex fixo">
                             <img class="icon" src="img/mirendimiento.svg" alt="">
                             <p>Mi rendimiento</p>
@@ -105,7 +105,7 @@
                             </div>
                             <article class="hoja">
                                 <h1 class="fs-1 my-4">Tp1</h1>
-                                <h2 class="fs-2 my-4">Bases geográficas</h2>
+                                <h2 class="fs-2 my-4">Problemas de matemática</h2>
                                 <p class="fs-6 my-4">Por Macarena Gonzalez</p>
                                 <hr>
                                 <h2>¿Cuanto es 8 multiplicado por 8?</h2>
@@ -129,18 +129,19 @@
                                                     <div class="mb-3">
                                                         <label for="message-text" class="col-form-label">Añadir
                                                             comentario:</label>
-                                                        <textarea class="form-control" id="message-text"></textarea>
+                                                        <textarea class="form-control"
+                                                            id="message-text"></textarea>
                                                     </div>
                                                 </form>
                                             </div>
                                             <div class="modal-footer m-0">
 
-                                                <a href="tp2.html" type="button" class="btn btn-primary">Enviar</a>
+                                                <a href="tp2.html" type="submit" class="btn btn-primary">Enviar</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <h2>¿Cuanto es 9 multiplicado por 9?</h2>
                                 <p id="parrafo2">La respuesta es 81</p>
                                 <div class="cajacoment">
@@ -162,8 +163,7 @@
                                         <legend class="fs-5">Calificación</legend>
                                         <div class="mb-3">
                                             <label for="seleccion" class="form-label">Elegí la nota</label>
-                                            <select class="form-select" aria-label="Default select example"
-                                                id="seleccion">
+                                            <select class="form-select" aria-label="Decidí la nota" id="seleccion">
                                                 <option value="1">1</option>
                                                 <option value="2">2</option>
                                                 <option value="3">3</option>
