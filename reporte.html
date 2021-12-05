@@ -10,14 +10,16 @@
 </head>
 
 <body>
-    <h1>Reporte de accesibilidad - Grupo 4</h1>
-    <h2>Alumnos</h2>
-    <ul>
-        <li>Agustín Ietta</li>
-        <li>Fiorella Nucara</li>
-        <li>Victoria Caporalin</li>
-        <li>Delfina Llobet</li>
-    </ul>
+    <header>
+        <h1>Reporte de accesibilidad - Grupo 4</h1>
+        <h2>Alumnos</h2>
+        <ul>
+            <li>Agustín Ietta</li>
+            <li>Fiorella Nucara</li>
+            <li>Victoria Caporalin</li>
+            <li>Delfina Llobet</li>
+        </ul>
+    </header>
     <article>
 
         <h3>Descripción y contexto</h3>
@@ -58,11 +60,13 @@
             presencialidad donde estaba muy acostumbrada a realizar las correcciones de forma rápida y en papel.</p>
 
 
-        <p> A partir de esta información, como equipo de diseño generamos los siguientes puntos de vista, ordenados de acuerdo al
+        <p> A partir de esta información, como equipo de diseño generamos los siguientes puntos de vista, ordenados de
+            acuerdo al
             orden de prioridad:</p>
-            
+
         <ul>
-            <li>Martha es una docente que necesita optimizar el proceso de evaluación porque actualmente le está llevando
+            <li>Martha es una docente que necesita optimizar el proceso de evaluación porque actualmente le está
+                llevando
                 mucho tiempo extra.</li>
             <li>Martha es una docente de ¨vieja escuela¨ que necesita unificar su metodología de evaluación (papel -
                 digital) porque actualmente las notas en papel no son suficientes y afectan su tiempo.</li>
@@ -107,8 +111,8 @@
             que
             por ahí no tiene como protagonista el hecho de generar una motivación al usuario y permitirle autoevaluarse,
             sino más bien trata la problemática de la corrección, el feedback y el contacto diario del docente con el
-            alumno. 
-        
+            alumno.
+
         <h4>Información necesaria para entender el resultado final</h4>
 
         </p> Para ver el prototipo en figma pueden
@@ -143,7 +147,9 @@
         </p>
         <p>Comenzamos planteando una estructura básica de la web, respetamos el orden en que fue maquetado para tener un
             punta pie del orden de lectura con un lector de pantalla. Para esto utilizamos todas las etiquetas
-            semánticas aprendidas. Por cuestiones de tiempo, el maquetado está apuntado a una medida de 1272*720. En esta medida se puede ver el diseño final. En medidas más grandes no hay problemas de responsive. Pero si en medidas más chicas. Recomendamos verlo en la medida base.</p>
+            semánticas aprendidas. Por cuestiones de tiempo, el maquetado está apuntado a una medida de 1272*720. En
+            esta medida se puede ver el diseño final. En medidas más grandes no hay problemas de responsive. Pero si en
+            medidas más chicas. Recomendamos verlo en la medida base.</p>
         <img src="img/captura1.jpg" alt="Imagen con la estructura básica de la web marcada.">
         <p>El header, lo tomamos directo de bootstrap, como sabíamos que no podiamos darle una funcionalidad al buscador
             y no era el foco a testear no tocamos nada de código de esta caja. Salvo algunas diferenciaciones y
@@ -151,7 +157,7 @@
         <p>El nav principal, si bien solo navegamos por el item colegios. Era necesario para el diseño y testeo tenes
             una navegación principal para que se entienda el contexto de la web.</p>
         Comenzando con el logo, que cumple la funcion de llevar a la página principal, lo dejamos claro con un aria y
-            agregamos un alt.
+        agregamos un alt.
         <p>En cuanto a la lista de items, "colegios" es el current page. Mientras que el resto de items, si bien el link
             apunta a #, preferimos dejarlo así para que tenga foco y sea más real el testeo.</p>
         <p>El main, donde transcurre todo. En cada página colocamos un h1 para encabezar el contenido y agregamos un
@@ -160,9 +166,12 @@
         <img src="img/captura2.png" alt="Imagen con el diseño de la tarjeta utilizada en la web">
         <p>Codeamos la cards como una lista desordenada, donde cada item tendria a continuacion una etiqueta de link
             para todo el contenido sea cliqueable. Por esto mismo el boton ingresar es practicamente solo una referencia
-            visual de que el contenido se puede cliquear.</p> 
-            <p>Si bien verificamos con los profesores que esto es una buena práctica, es algo que no llegamos a completar en un 100% ya que desde el lector de pantallas, cada item dentro de la card la toma como vínculo. No se presentó como problema en los test, pero podría ser un punto de mejora.</p>
-        <p>En el contenido de la card, siempre codeamos una etiqueta de encabezado y cuidamos que el contenido no dependa
+            visual de que el contenido se puede cliquear.</p>
+        <p>Si bien verificamos con los profesores que esto es una buena práctica, es algo que no llegamos a completar en
+            un 100% ya que desde el lector de pantallas, cada item dentro de la card la toma como vínculo. No se
+            presentó como problema en los test, pero podría ser un punto de mejora.</p>
+        <p>En el contenido de la card, siempre codeamos una etiqueta de encabezado y cuidamos que el contenido no
+            dependa
             del color. Por ejemplo, para la información "No hay tareas pendientes" lo dejamos bien en claro con el
             texto, sumamos un color rojo que contraste y reforzamos con un ícono decorativo. Mantuvimos esta línea de
             pasar contraste de color en toda la web.</p>
@@ -224,11 +233,101 @@
     <article>
         <h3>Conclusiones</h3>
         <h4>Agustín Ietta</h4>
-        <p></p>
+        <p>
+            A nivel general de la cursada en accesibilidad, me costó. Mi foco al entrar en la diplomatura era
+            accesibilidad y si bien me llevo conocimientos siento que no puedo hacer nada desde mi rol de diseñador UX.
+            Sin embargo, creo que lo más significativo que me llevo es un cambio de mindset, que si puedo aplicar desde
+            como ideamos soluciones hasta el resultado final y tener en cuenta a todos los usuarios, con o sin
+            discapacidad. Este mindset ayuda
+            a que cada vez más personas se comiencen a interesar, aprender y tomarse el tiempo de desarrollar estos
+            temas.</p>
+        <p>Una de la usuarias, nos comento que para comprar su primer celular, tenia que fijarse que modelos tenian
+            accesibilidad, llevarlo a un lugar a que se lo activen, esperan días y recién ahi ir a buscarlo para poder
+            usarlo, mientras que hoy en día
+            cualquier celular tiene las opciones al alcance de cada usuario de activarlo o desactivarlo. Me contó esto
+            en plan, estamos avanzando a pasos agigantados. Espero con ilusión que en unos años todavía esté más
+            avanzado y ver el cambio.</p>
+        <p>En cuanto al trabajo final, creo que mi cursada fue especialmente diferente porque tuve que maquetar. Creo
+            que es algo general de toda la cursada que los maquetadores sentimos mucha presión y responsabilidad de
+            ponernos en la espalda el trabajo de 4 personas (y siendo el trabajo final!) y pensar: ¿qué pasa si no puedo
+            hacerlo? ¿qué pasa si desaprobamos?</p>
+        <p>Además la simultaneidad con usabilidad hizo que tengamos que dividirnos, y por más que nos dieramos apoyo fue
+            algo más separado.</p>
+        <p>Desde mi parte, teniendo solo conocimientos en html, css,
+            boostrap y algo de git de un curso que hice hace años. Tuve que repasar todo, aprender más cosas, revisar
+            todas las anteriores clases e
+            investigar javascript para poder realizar el maquetado del prototipo. La ayuda de Maca cada semana fue
+            esencial, para hacer como un check de que ibamos por buen camino, resolver dudas, tomar decisiones de
+            accesibilidad, etc.</p>
+        <p>Otra dificultad fue que en usabilidad la teoría terminó en wireframes en baja, nuestro diseño no tenía
+            lineamientos básicos de grilla, tamaños de tipografía, consistencia y esto me perjudicaba mucho porque un
+            componente que entraba en el diseño, en el maquetado no entraba y tenía que adaptarlo como podía.</p>
+        <p>
+            Para terminar, yo estoy contento con los resultados. Me di cuenta que el desarrollo lejos de ser algo fijo,
+            siempre se puede seguir iterando como pasa en diseño. Y me tuve que poner ese mismo stop a mi mismo para no
+            seguir cambiando cosas. Git ayudó mucho en este punto. Por esto mismo se que tiene muchísimo para mejorar
+            pero
+            también sé que aporté todo lo que pude aportar en estas semanas y que más allá del resultado numérico, que
+            nuestra usuaria sonría y diga es "super accesible" en
+            una web que jamás usó, vale oro y con eso me quedo.
+        </p>
         <h4>Delfina Llobet</h4>
         <p></p>
         <h4>Fiorella Nucara</h4>
-        <p></p>
+        <p>
+            A nivel general creo que a nivel general me fue dificil la materia, principalmente por no entender
+            nada de código, y si bien asistí a las clases de martín que me resultaron muy útiles aunque un poco
+            desordenadas, no podía seguirle el ritmo al nivel de código que hablaba Manuel en las clases, por ende
+            siempre me sentía en desventaja o frustrada por no entender del todo.
+            Si bien el contenido de la materia en sí fue muy enriquecedor y descubrí cosas de las cuales no tenía ni
+            idea, y desde lo teórico iba llevando la cursada al día siento que si hubiera tenido una base más sólida de
+            código hubiera aprendido o podido aprovechar la materia por demás. Lo que no quita que me haya generado una
+            visión mucho más inclusiva de los productos, que me permitió comenzar a pensarnos de otra forma. De hecho
+            fue lo que más nos limitó a la hora de diseñar nuestra app y aunque los limitantes no sean algo que me gusta
+            demasiado pues soy diseñadora y me hubiese encantado ponerle otro tipo de diseño al producto, entiendo que
+            todo este proceso me generó nuevos desafíos que me ayudan a crecer como profesional. </p>
+
+        <p>Con respecto a la aplicación a la que comenzamos a darle forma, si bien le falta un montón a nivel prueba de
+            nuevos flujos y demás, realmente creo que hay una necesidad súper válida detrás de ella y un dolor que
+            merece atención.
+            Como comentaba anteriormente el hecho de que ninguno de los integrantes del grupo este 100% capacitado para
+            maquetar nos limitó bastante en la decisión del flujo a testear, porque desde el minuto 0 pensábamos en la
+            accesibilidad de la app y como con el conocimiento de código que teníamos podíamos llevar esa propuesta
+            adelante.
+            Fue un gran desafío incorporar esta metodología de pensamiento accesible, donde era mucho más que una buena
+            ui lo que necesitábamos para que funcione para todo el mundo.
+            Le dimos muchas vueltas a la página de corrección, porque realmente ese era un gran desafío por donde se lo
+            mire y si bien podríamos seguir testando y sacándole mucho más jugo a las pruebas estoy contenta con el
+            resultado al cual llegamos porque realmente entre iteración e iteración nos íbamos dando cuenta de un montón
+            de cosas que surgían y que antes de pasar por esta materia jamás las hubiera visto como un problema. </p>
+
+        <p>
+            Con respecto a las prácticas, me pareció super valiosa la idea de testear con personas que tuvieran alguna
+            discapacidad. Yo estaba
+            bastante nerviosa por el hecho de cómo tratarlos para que en ningún momento se sientan ofendidos por nada y
+            la verdad es que al momento de hacer el testeo y ver la forma en que el usuario se relacionaba con nosotros
+            y la buena predisposición que tenían, se me fue todo ese nervio y entendí que ellos son los primeros en
+            estar acostumbrados a esa situación.
+            Realmente los dos usuarios con los que tuvimos contacto se mostraron súper amables y predispuestos, no solo
+            a realizar el testeo sino a brindarnos información super valiosa y a explicarnos muchas de las situaciones a
+            las cuales se enfrentaban y creían que podíamos mejorar.
+            Haber podido realizar estos testeos creo que nos generó un gran valor agregado para terminar de comprender
+            todo lo que veníamos trabajando a lo largo de la cursada, e incluso seguir aprendiendo más. Notamos también
+            que el testeo era completamente distinto y a su vez nos hizo ponernos a pensar un montón de cosas, por
+            ejemplo hasta el momento estábamos súper acostumbrados a copiar la tarea en el chat del zoom y dejar que el
+            usuario interactue solo con ello, pero en el caso de estos dos testeos no les era tan fácil volver al chat
+            del zoom por el hecho de que este no era accesible por teclado y no podían ingresar a él, por eso nos
+            volvían a preguntar la tarea reiteradas veces, lo que también nos hizo dar cuenta de la importancia de
+            escribir un buen guión, pregnante para que el usuario tenga que recurrir a él lo menos posible. </p>
+
+        <p>
+            Me hubiese gustado contar con instancias semanales de prácticas, es decir tener pequeños ejercicios que
+            podamos hacer después de cada clase para comprender y afianzar los conocimientos que íbamos viendo, ya que
+            después estudiar todo junto se me hizo mucho más complejo y siento que si lo hubiésemos practicado de forma
+            semanal lo hubiera podido asimilar de otro modo, mucho más fácil y cercano porque ya hubiese tenido cierta
+            experiencia con ello. </p>
+
+
         <h4>Victoria Caporalin</h4>
         <p></p>
     </article>

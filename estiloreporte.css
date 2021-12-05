@@ -5,3 +5,8 @@ body{
 img{
     width: 600px;
 }
+
+header{
+    height: 100vh;
+    background-color: aqua;
+}
