@@ -13,7 +13,7 @@
 <body>
     <header>
         <h1>Reporte de accesibilidad</h1>
-        <img src="img/logosvg.svg" alt="">
+        <img src="img/logosvg.svg" alt="Logo de Pupitre">
         <div>
             <p>AYU 2021</p>
             <p>Grupo 4</p>
@@ -216,7 +216,79 @@
     </article>
     <article>
         <h3>Resumen de pruebas con usuarios con discapacidad</h3>
-        <p>A partir del testeo, nos dimos cuenta que 4ºA, 4-A, 4to A, sonaba muy extraño desde el lector de pantallas y
+
+        <h4>Reynaldo</h4>
+        <p>Reynaldo es una persona con discapacidad visual que utiliza su computadora con la ayuda de un navegador de
+            pantalla (NVDA). Es docente de nivel primario en Perú. También realiza capacitaciones para ayudar a otros a
+            adaptar sus técnicas para la enseñanza para incluir a niños con discapacidad visual.
+        </p>
+        <p>Cuando testeamos con Reynaldo, notamos rápidamente que en el diseño del guión no habíamos contemplado los
+            testeos con personas con discapacidad visual. Para este tipo de usuarios, es necesario dar indicaciones
+            respecto de cómo configurar sus apoyos por ejemplo. Esto, si bien lo habíamos conversado en la charla previa
+            al testeo cuando realizamos el reclutamiento, no lo incluimos en el guión. Por lo tanto, tuvimos que
+            improvisar durante el testeo y seguramente eso generó algún tipo de sesgo en el usuario.
+        </p>
+        <p>También notamos que la tarea no estaba bien redactada. Esto se vio en todos los testeos, tanto de usuarios
+            sin discapacidad como en los de usuarios con discapacidad. Pero en el testeo con Reynaldo notamos
+            rápidamente que la tarea era demasiado extensa como para que la recordara por completo. A esto, se le sumaba
+            cierta dificultad para recurrir al chat de la sala de reunión para recordar la tarea. Por lo tanto, tuvimos
+            que recordarsela en varias oportunidades. Esto también pudo haber contaminado la muestra o el resultado del
+            test.
+            Fue difícil saber hasta qué punto asistir al usuario para que pueda completar la tarea en vista de llegar al
+            equilibrio entre facilitarle la información necesaria sin sesgarlo.
+        </p>
+        <p>El primer punto a corregir apareció en la pantalla donde el usuario debe elegir a qué curso va a ingresar.
+            Cada una de las cards contenía un encabezado de nivel cinco con el grado en el siguiente formato: 3-A, 4-B.
+            En consecuencia, el lector de pantalla leía “Nivel de encabezado cinco tres a”. Esto le resultó confuso
+            porque no comprendía exactamente a qué se referían los dos números que escuchaba en consecutivo (aunque
+            podía hacerse una idea aproximada por lo que pudo continuar con la tarea)
+        </p>
+        <p>Mientras busca al alumno con más inasistencias, en el minuto 27:15 del testeo, Reynaldo menciona que no puede
+            navegar por los múltiples enlaces que contiene cada una de las cards de los alumnos con la letra K de su
+            pantalla. Sin embargo, cuando navega la pantalla con la flecha hacia abajo, el lector de pantalla le indica
+            cada elemento contenido en la card (tareas entregadas, promedio e inasistencias) como un enlace visitado.
+            Esto lo confunde y lo desorienta. Cuando navega con la letra K, pasa de un alumno al siguiente. Esto puede
+            resultar confuso por lo que es algo a resolver en futuras iteraciones.
+        </p>
+        <p>En el minuto 31 del test, se nos presentó un problema que lo atribuímos específicamente a las variaciones del
+            lenguaje español. Reynaldo no comprendió el significado de “TP” que en Argentina, por convención lo
+            utilizamos para abreviar “trabajo práctico”. Como Reynaldo es de Perú, la atribuye a “TP” otro significado:
+            “Tarea pendiente”. Esto significa un problema para que pueda convertir ya que se le presentan dificultades
+            para identificar la tarea entregada sin corregir, pese a contar con los diferentes encabezados que dividen
+            las tareas “sin entregar”, “por corregir” y los “corregidos”.
+        </p>
+        <p>A esto, se le suma el problema de los números. El lector de pantalla lee los números que en el diseño le
+            atribuimos a cada entrega para denominarla, pero el usuario los interpretó como cantidad de entregas (por
+            corregir). Por lo tanto, interpreta que hay más de una entrega sin corregir. Probablemente no hubiera
+            convertido sin la intervención del facilitador. A pesar de eso, se decidió continuar con el test para
+            recabar la mayor cantidad de información posible.
+            Finalmente, con asistencia del facilitador, Reynaldo logró ingresar a la entrega realizada por el alumno y
+            pendiente de corrección. En este punto, notamos que el texto simulado lo confunde. Le resulta ilegible el
+            texto, lo que lo condiciona para tomar una decisión respecto de qué y cómo realizar una corrección.
+        </p>
+        <p>La herramienta para “Comentar párrafo”, si bien es accesible, vemos la necesidad de continuar desarrollandola
+            e iterandola ya que ninguno de los usuarios le dió el uso que esperábamos para convertir la tarea.
+            Sobre el campo de formulario para ingresar la nota y escribir la justificación de la calificación, no
+            encontramos dificultades. Sin embargo, Reynaldo menciona que esperaría un botón que indique “Enviar” en
+            lugar de “Calificar”. También apreció nuevamente un problema propio del lenguaje asociados a la palabra
+            “nota”. El usuario mencionó que por nota, interpreta que se refiere a un texto y no a la calificación
+            (puntaje) asignada a la entrega.
+        </p>
+
+        <p>Respecto del modal que envía un mensaje de felicitaciones al usuario por haber completado sus objetivos
+            semanales, vimos que presta cierta confusión sobre quién es el destinatario del mensaje. Reynaldo hizo
+            referencia a esto y sugirió personalizarlo para que sea más claro si se dirige al docente o al alumno.
+
+        </p>
+        <h4>Natalia</h4>
+        <p>Naty tiene 26 años es estudiante de narración oral escénica y canto. Desdde el año 2008 que utiliza
+            computadora y celular,
+            aunque en la pandemia se le abrieron muchas oportunidades para dar charlas sobre accesibilidad. Ella utiliza
+            el NVDA.</p>
+        <p>Luego de la primer experiencia con Reynaldo, este testeo resultó mucho más ordenado para la usuaria. Pudimos
+            charlar muchas cosas sobre su historia al principio y luego testear la web.</p>
+        <p>A partir del testeo con Naty, nos dimos cuenta que 4ºA, 4-A, 4to A, sonaba muy extraño desde el lector de
+            pantallas y
             hacía que nuestra usuaria se pierda. Para resolverlo agregamos un aria-label="Cuarto A"</p>
         <p>También la usuaria nos recomendó que hagamos una descripción de los gráficos o que si no es necesario,
             directamente no se lea como "gráfico" notamos que hubo frustración cuando sucedió. Por esto, manejamos el
@@ -249,21 +321,27 @@
             discapacidad. Este mindset ayuda
             a que cada vez más personas se comiencen a interesar, aprender y tomarse el tiempo de desarrollar estos
             temas.</p>
-        <p>Una de la usuarias, nos comento que para comprar su primer celular, tenia que fijarse que modelos tenian
-            accesibilidad, llevarlo a un lugar a que se lo activen, esperan días y recién ahi ir a buscarlo para poder
+        <p>Una de la usuarias, nos comento que para comprar su primer celular tenía que fijarse que modelos tenian
+            accesibilidad, llevarlo a un lugar a que se lo activen, esperan días y recién ahi, volver a buscarlo para
+            poder
             usarlo, mientras que hoy en día
-            cualquier celular tiene las opciones al alcance de cada usuario de activarlo o desactivarlo. Me contó esto
+            cualquier celular tiene las opciones de accesibilidad al alcance de cada usuario de activarlo o
+            desactivarlo. Me contó esto
             en plan, estamos avanzando a pasos agigantados. Espero con ilusión que en unos años todavía esté más
             avanzado y ver el cambio.</p>
         <p>En cuanto al trabajo final, creo que mi cursada fue especialmente diferente porque tuve que maquetar. Creo
             que es algo general de toda la cursada que los maquetadores sentimos mucha presión y responsabilidad de
             ponernos en la espalda el trabajo de 4 personas (y siendo el trabajo final!) y pensar: ¿qué pasa si no puedo
-            hacerlo? ¿qué pasa si desaprobamos?</p>
-        <p>Además la simultaneidad con usabilidad hizo que tengamos que dividirnos, y por más que nos dieramos apoyo fue
-            algo más separado.</p>
+            hacerlo? ¿qué pasa si desaprobamos? con la ya experiencia de haber trabajado completamente solo en el tp
+            Citadinos y no haber llegado a la aprobación. Con apoyo de mi compañera, pero completamente nulo de mi
+            compañero.</p>
+        <p>En este trabajo final, por más que el código quedó a mi cargo mis compañeras estuvieron presentes en todo
+            momento y fueron compañía en las correcciones con Maca y se pusieron al hombro el testeo y trabajo de
+            usabilidad. Eso ayudó un montón!</p>
         <p>Desde mi parte, teniendo solo conocimientos en html, css,
-            boostrap y algo de git de un curso que hice hace años. Tuve que repasar todo, aprender más cosas, revisar
-            todas las anteriores clases e
+            boostrap y algo de git de un curso que hice hace años. Tuve que repasar todo de nuevo, aprender más cosas,
+            revisar
+            todas las anteriores clases de accesibilidad e
             investigar javascript para poder realizar el maquetado del prototipo. La ayuda de Maca cada semana fue
             esencial, para hacer como un check de que ibamos por buen camino, resolver dudas, tomar decisiones de
             accesibilidad, etc.</p>
@@ -271,16 +349,54 @@
             lineamientos básicos de grilla, tamaños de tipografía, consistencia y esto me perjudicaba mucho porque un
             componente que entraba en el diseño, en el maquetado no entraba y tenía que adaptarlo como podía.</p>
         <p>
-            Para terminar, yo estoy contento con los resultados. Me di cuenta que el desarrollo lejos de ser algo fijo,
+            Para terminar, estoy contento con el resultado. Me di cuenta que el desarrollo lejos de ser algo fijo,
             siempre se puede seguir iterando como pasa en diseño. Y me tuve que poner ese mismo stop a mi mismo para no
             seguir cambiando cosas. Git ayudó mucho en este punto. Por esto mismo se que tiene muchísimo para mejorar
             pero
-            también sé que aporté todo lo que pude aportar en estas semanas y que más allá del resultado numérico, que
+            también sé que aporté todo lo que pude aportar en estas semanas y que más allá del resultado numérico del
+            trabajo, que
             nuestra usuaria sonría y diga es "super accesible" en
             una web que jamás usó, vale oro y con eso me quedo.
         </p>
         <h4>Delfina Llobet</h4>
-        <p></p>
+
+        <p>Cuando me anoté en la diplomatura tenía una idea de que se trataba Accesibilidad, pero no estaba 100% segura
+            de qué conocimientos iba a incorporar. También tenía dudas de cuánto iba a poder aprender sin tener
+            conocimientos de programación. A medida que fueron pasando las teóricas me di cuenta de la gran importancia,
+            del alcance y de lo útil que era lo que estábamos aprendiendo. Me sorprendió la cantidad de experiencias que
+            deberían ser accesibles y no lo son, la cantidad de personas que quedan excluidas.
+        </p>
+        <p>En cuanto a los contenidos de las clases, muchos de ellos puede entenderlos y otros los entendía en el
+            momento pero después me costaba retener algunos conceptos. Cuando llegó el momento del examen, algunas cosas
+            las memoricé porque sino no sabía cómo estudiarlas.</p>
+        <p>Si bien no creo que pueda aplicar cosas que vimos correctamente dentro de un código, siento que si puedo
+            detectar errores de accesibilidad y puedo decir cómo deberían estar para ser accesibles. Los trabajos
+            prácticos fueron de gran ayuda para afianzar lo aprendido. Tal vez me hubiese ayudado tener algunos trabajos
+            cortos a modo de práctica. El uso de herramientas de autoevaluación también me ayudó muchísimo a visualizar
+            errores y a formar un criterio.</p>
+
+        <p>En cuanto a las herramientas de evaluación automática quiero decir que la última que usamos, Accessibility
+            Insights for Web, me pareció la mejor de todas. La más clara, con la información mejor organizada y con
+            muchas más herramientas que ayudan a visualizar los errores. Me hubiese servido descubrirla antes.</p>
+
+        <p>En cuanto al trabajo final, fue un desafío hacer el flujo asegurándonos que sea totalmente accesible. Fue muy
+            enriquecedor sumar todos los conocimientos de accesibilidad al proyecto y pensar desde cero el flujo con la
+            perspectiva de la materia. Una observación negativa que tengo para hacer es que por momentos era incomodo
+            saber que uno solo dentro del grupo tenía que hacer todo el trabajo de código. Entiendo que los docentes no
+            encontraron otra forma de resolver esta situación, pero fue injusto para el que no tenía otra opción que
+            ponerse a maquetar si o si y a su vez los demás nos sentimos inútiles. Además, nos vimos limitados a la hora
+            de seleccionar el flujo a desarrollar porque ninguno se manejaba bien programando y ciertas cosas que
+            hubiésemos querido hacer las descartamos por falta de conocimiento.</p>
+
+        <p>Otras experiencias que me sumaron un gran aprendizaje fueron las pruebas con usuarios con discapacidad
+            visual. Si bien ya habíamos tenido unas teóricas en la que los usuarios nos mostraban cómo se manejaban con
+            el lector de pantalla, fue de gran ayuda hacer un testeo real y detectar necesidades reales. Pasar por la
+            experiencia de pensar como realizar el testeos, adaptar el guión y anticiparse a resolver situaciones que
+            puedan generar conflicto.</p>
+        <p>Para concluir, quería agradecerles a los docentes la dedicación y la paciencia. Gracias a haber cursado
+            accesibilidad hoy tengo una visión más amplia y un criterio formado sobre la accesibilidad web</p>
+
+
         <h4>Fiorella Nucara</h4>
         <p>
             A nivel general creo que a nivel general me fue dificil la materia, principalmente por no entender
@@ -337,7 +453,54 @@
 
 
         <h4>Victoria Caporalin</h4>
-        <p></p>
+        <p>Sobre mi proceso individual respecto del trabajo práctico final, en lo que fue el armado de la maqueta del
+            prototipo, me sentí muy poco útil. La estrategia en general del equipo para resolver el TPF (en su
+            totalidad, es decir la parte de usabilidad más la de accesibilidad) fue dividirnos las tareas de acuerdo a
+            las posibilidades y conocimientos de cada integrante. Si bien teníamos reuniones frecuentemente para poner
+            en común, trabajamos mucho por separado. Pienso que fue la mejor forma de organizarlo para poder resolverlo
+            de la mejor manera en el tiempo disponible. Sin embargo, creo que hubiera sido más fructífero para todos
+            poder trabajar en algo donde todos pudiéramos participar de manera más activa. Pero, por otro lado, imagino
+            que la forma de organizar este tipo de procesos en el campo profesional debe ser un poco parecida a la forma
+            en la que lo resolvimos.
+            Creo que el proceso en sí, del trabajo y de la cursada es algo en lo que todavía no pude reflexionar lo
+            suficiente. En parte porque la necesidad de hacer cosas para resolver o para llegar a una entrega, hace que
+            uno no tenga mucho margen para pensar en qué hace o por qué.
+        </p>
+        <p>Mi rol en el equipo, para el TPF estuvo bastante abocado al reclutamiento de usuarios para testear (con y sin
+            discapacidad). También realicé varios de los testeos y participé puntualmente en los dos que realizamos con
+            ayuda de personas con discapacidad.
+            Participé en el armado del prototipo en Figma, que luego usamos como referencia para generar el HTML. Además
+            pude aplicar lo aprendido en relación a las pautas para hacer testeos, previos a las pruebas con usuarios,
+            con navegación por teclado y a través del uso de lector de pantalla (NVDA).
+        </p>
+        <p>Entiendo que es un poco pretencioso de mi parte pretender participar activamente del armado de la maqueta
+            considerando que comencé la cursada de la diplomatura sin tener ningún tipo de conocimiento respecto de
+            cualquiera de los temas que vimos (específicamente en la materia de accesibilidad). En cierta instancia del
+            proceso creo que entendí esto y que lo mejor era apelar al trabajo en equipo y confiar en el trabajo de mis
+            compañeros. Estoy conforme con cómo lo resolvimos en conjunto.
+        </p>
+        <p>La cursada de la materia de accesibilidad me resultó realmente un desafío. Le tuve que dedicar mucho tiempo
+            y, en la mayoría de las instancias de evaluación, me sentí bastante frustrada por no poder alcanzar
+            satisfactoriamente los objetivos. Incluso, en algún momento pensé que no iba a poder completar la cursada (y
+            quizás con un poco menos de suerte realmente no hubiera podido). Pero, a pesar de eso, pude completar la
+            cursada y llegar a la instancia final. Todo esto me hizo replantearme algunos aspectos de lo personal como
+            mi forma de estudiar, o las estructuras que suelo autoimponerse para resolver cosas, por ejemplo.
+        </p>
+        <p>A pesar de eso, estoy conforme con el proceso y con lo que pude aprender. Pude conocer temas que
+            probablemente no hubiera conocido por fuera de la cursada y sobre los cuales seguiré indagando fuera de la
+            AYU.
+        </p>
+        <p>Me parece algo muy valioso que la formación en diseño incluya la perspectiva sobre la accesibilidad a la
+            mayor cantidad de personas posible. Creo que es algo que de alguna forma hay que forzar para que realmente
+            se genere un cambio de paradigma en el diseño de cualquier producto, ya que creo que generalmente las
+            personas tenemos cierta resistencia a pensar las cosas desde un lugar que nos es ajeno. Por ejemplo, ¿Por
+            qué pensaría una aplicación para alguien que no ve o que no distingue colores si a mi no me ocurre?. Creo
+            que en la diplomatura encontramos algunas respuestas a esa pregunta. Y, por último, también creo que para
+            trabajar en nuestra propia empatía (que sin duda nos hace mejores diseñadores, comunicadores, profesionales)
+            es necesario conocer otras realidades. Esto se nos facilitó a través de la metodología de trabajo que se nos
+            propuso a lo largo de la cursada.
+            Gracias al equipo docente por la flexibilidad y el acompañamiento.
+        </p>
     </article>
 </body>
 
